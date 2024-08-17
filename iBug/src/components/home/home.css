@@ -1,0 +1,31 @@
+.main-section {
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 32px;
+  height: 72vh;
+
+  .image-area {
+    height: 100%;
+    background: url("https://t4.ftcdn.net/jpg/06/86/29/81/360_F_686298162_rOqlIvl85Hy3ALn0A2ogzCdBOa7qzGqb.jpg");
+    -webkit-background-size: cover;
+    filter: blur(12px);
+    /* backdrop-filter: blur(12px); */
+  }
+}
+.text-area {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -400%);
+  text-align: center;
+  .title {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+  }
+  .description {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(255, 213, 0);
+  }
+}

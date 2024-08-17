@@ -1,0 +1,29 @@
+.section-footer {
+  margin-top: 32px;
+  height: 12vh;
+  padding: 18px 28px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 208, 255, 0.171);
+  box-shadow: 0 0 22px rgb(208, 183, 25);
+  text-align: center;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    .copyrights {
+    }
+    .sponsors {
+      .title {
+        font-weight: 700;
+      }
+      .items {
+        display: flex;
+        width: 100%;
+        gap: 28px;
+      }
+    }
+  }
+}

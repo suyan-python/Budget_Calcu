@@ -1,0 +1,15 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 18px 28px;
+  background-color: rgba(0, 208, 255, 0.171);
+  box-shadow: 0 0 22px rgb(208, 183, 25);
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  font-size: 20px;
+
+  .items {
+    display: flex;
+    gap: 22px;
+  }
+}
